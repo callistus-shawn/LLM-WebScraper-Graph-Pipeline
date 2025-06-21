@@ -29,12 +29,8 @@
 - Entities and relationships (e.g., companies, drugs, clinical studies) are extracted.
 - The structured data is ingested into a Neo4j graph database.
 
-### 3. Embedding and RAG
 
-- Article text chunks are embedded using Sentence Transformers (e.g., `all-MiniLM-L6-v2`).
-- Embeddings are stored in a vector database (or in-memory store) for semantic similarity search.
-
-### 4. Cypher QA via LLMs
+### 3. Cypher QA via LLMs
 
 - `rag.py` sets up a LangChain `GraphCypherQAChain`:
   - Uses prompt templates to guide Cypher query generation and result interpretation.
@@ -42,7 +38,7 @@
   - Executes the query, and interprets the results into helpful, human-readable answers.
   - Includes robust logging and error handling for all steps.
 
-### 5. Full Orchestration
+### 4. Full Orchestration
 
 - `pipeline.py` ties all components together.
 - Can be run as a CLI tool or scheduled job.
