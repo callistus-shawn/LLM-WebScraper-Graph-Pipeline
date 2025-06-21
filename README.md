@@ -4,7 +4,7 @@
 
 This is an end-to-end information retrieval and question-answering pipeline that scrapes content from the web, processes it into a knowledge graph using Neo4j, and performs Retrieval-Augmented Generation (RAG) using LLMs such as OpenAI or Gemini. It is built with Python and uses a modular architecture that combines web crawling, semantic embedding, and knowledge graph querying for intelligent question answering.
 
-## Crawl4AI
+## Crawl4AI - LLM Scraper
 Crawl4AI is a Python framework for intelligent web crawling, built for AI and NLP tasks. It supports both browser-based and HTTP crawling, handles dynamic content, and enables LLM-powered extraction for context-aware parsing. With modular components for caching, dispatching, and orchestration, it's ideal for building scalable, automated data pipelines.
 
 ## Core Components
