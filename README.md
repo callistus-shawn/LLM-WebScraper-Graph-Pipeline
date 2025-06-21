@@ -1,8 +1,7 @@
 # LLM-WebScraper-Graph-Pipeline
 
 
-**LLMScraper_Graph_pipeline** is an end-to-end information retrieval and question-answering pipeline that scrapes content from the web, processes it into a knowledge graph using Neo4j, and performs Retrieval-Augmented Generation (RAG) using LLMs such as OpenAI or Gemini. It is built with Python and uses a modular architecture that combines web crawling, semantic embedding, and knowledge graph querying for intelligent question answering.
-
+**LLMScraper_Graph_pipeline** is an end-to-end information retrieval and question-answering pipeline that scrapes content from the web, processes it into a knowledge graph using Neo4j, and performs Retrieval-Augmented Generation (RAG) using LLMs such as OpenAI or Gemini. 
 ## Core Components
 
 ### Main Scripts
